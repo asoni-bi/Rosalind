@@ -2,7 +2,7 @@
 
 import re
 
-seqs_file = "/Users/astha/PycharmProjects/Bioinformatics Projects/Rosalind/Downloaded Datasets/rosalind_gc.txt"
+seqs_file = "/Rosalind/Downloaded Datasets/RSL5.txt"
 with open(seqs_file) as file_data:
     read_file = file_data.read()
 

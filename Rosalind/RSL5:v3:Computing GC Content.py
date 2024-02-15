@@ -1,6 +1,6 @@
 from Bio import SeqIO
 
-seqs_file = "/Users/astha/PycharmProjects/Bioinformatics Projects/Rosalind/Downloaded Datasets/rosalind_gc.txt"
+seqs_file = "/Rosalind/Downloaded Datasets/RSL5.txt"
 
 # dna_in_fasta = list(SeqIO.parse(f"./inputs/{args.file_name}", "fasta"))
 dna_in_fasta = list(SeqIO.parse(seqs_file, "fasta"))
